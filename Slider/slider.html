@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+      <title>Slider</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="slider">
+          <div class="slide">
+            <ul>
+              <li>
+                <img src="staff1.jpg">
+              </li>
+              <li>
+                <img src="staff2.jpg">
+              </li>
+              <li>
+                <img src="staff3.jpg">
+              </li>
+            </ul>
+          </div>
+          <div class="controller">
+            <div class="prev-btn btns">
+              <i class="fas fa-angle-left fa-3x"></i>
+            </div>
+            <div class="indicator">
+              <span id="active"></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="next-btn btns">
+              <i class="fas fa-angle-right fa-3x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </body>
+  </html>
